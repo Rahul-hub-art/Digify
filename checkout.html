@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Checkout - Digify</title>
+
+<link rel="stylesheet" href="digicss.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">Digify</div>
+
+<nav class="navbar">
+
+<div class="nav-left">
+
+<a href="digify.html">Home</a>
+<a href="about.html">About</a>
+<a href="courses.html">Courses</a>
+<a href="techer.html">Teachers</a>
+<a href="price.html">Pricing</a>
+
+<!-- DROPDOWN MENU -->
+
+<div class="dropdown">
+
+<button class="dropbtn">Other ▾</button>
+
+<div class="dropdown-content">
+
+<a href="blog.html">Blog</a>
+<a href="checkout.html">Checkout</a>
+<a href="policy.html">Policy</a>
+
+</div>
+
+</div>
+
+<a href="contact.html">Contact</a>
+
+</div>
+
+
+<!-- SEARCH -->
+
+<div class="nav-search">
+
+<input type="text" id="searchInput" placeholder="Search courses...">
+<button id="searchBtn">🔍</button>
+
+</div>
+
+
+<!-- LOGIN / REGISTER -->
+
+<div class="nav-auth">
+
+<button class="login-btn">Login</button>
+<button class="register-btn">Register</button>
+
+</div>
+
+</nav>
+
+</header>
+
+
+<!-- HERO -->
+
+<section class="checkout-hero">
+
+<h1>Secure Checkout</h1>
+<p>Complete your course purchase</p>
+
+</section>
+
+
+<!-- CHECKOUT SECTION -->
+
+<section class="checkout-section scroll-animation">
+
+<div class="checkout-container">
+
+
+<!-- BILLING FORM -->
+
+<div class="billing-form">
+
+<h2>Billing Details</h2>
+
+<form id="checkoutForm">
+
+<input type="text" id="name" placeholder="Full Name" required>
+
+<input type="email" id="email" placeholder="Email Address" required>
+
+<input type="text" id="phone" placeholder="Phone Number">
+
+<input type="text" id="city" placeholder="City">
+
+<input type="text" id="country" placeholder="Country">
+
+<select id="payment">
+
+<option value="">Select Payment Method</option>
+
+<option>Credit Card</option>
+<option>Debit Card</option>
+<option>UPI</option>
+<option>Net Banking</option>
+
+</select>
+
+<button class="btn">Complete Payment</button>
+
+<p id="checkoutMsg"></p>
+
+</form>
+
+</div>
+
+
+<!-- ORDER SUMMARY -->
+
+<div class="order-summary">
+
+<h2>Your Order</h2>
+
+<div class="order-item">
+
+<p>JavaScript Course</p>
+<span>₹1999</span>
+
+</div>
+
+<div class="order-item">
+
+<p>React JS Course</p>
+<span>₹2999</span>
+
+</div>
+
+<hr>
+
+<div class="order-total">
+
+<p>Total</p>
+<span>₹4998</span>
+
+</div>
+
+<div class="secure-box">
+
+🔒 Secure payment powered by Digify
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- TRUST SECTION -->
+
+<section class="checkout-trust">
+
+<h2>Why Learn With Digify?</h2>
+
+<div class="trust-grid">
+
+<div class="trust-card">
+<h3>Expert Teachers</h3>
+<p>Learn from professionals with real industry experience.</p>
+</div>
+
+<div class="trust-card">
+<h3>Lifetime Access</h3>
+<p>Access course content anytime from anywhere.</p>
+</div>
+
+<div class="trust-card">
+<h3>Certificate</h3>
+<p>Earn verified certificates after course completion.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Digify Online Learning</p>
+
+</footer>
+
+<script src="digijs.js"></script>
+
+</body>
+
+</html>
